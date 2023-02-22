@@ -32,7 +32,7 @@ while running:
         print(download_data_list)
     elif user_input == '3':
         average = calculate_average(download_data_list)
-        print(average)
+        print(f'{average} Mbps')
     elif user_input == 'q':
         running = False
     else:
